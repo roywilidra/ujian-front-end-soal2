@@ -1,0 +1,52 @@
+body {
+	background: url('https://cdn-s3.si.com/images/LAFC-New-Stadium-3.jpg');
+	
+}
+
+.form-group {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+}
+
+.form-group > h1 {
+	color: white;
+	text-align: center;
+	width: 100%;
+	margin: 20px;
+}
+
+.form-group > input {
+	margin-right: 20px;
+	width: 80%;
+}
+
+.list-container {
+	background-color: white;
+	width: 80%;
+	margin: 20px auto;
+	border-radius: 5px;
+}
+
+.list-container > h4 {
+	width: 100%;
+	padding: 20px;
+	margin: 0;
+}
+
+.list-container > div {
+	display: flex;
+	padding: 20px;
+}
+
+.list-container > div > img {
+	width: 300px;
+	height: 300px;
+}
+
+.list-container > div > p {
+	margin-left: 20px;
+	width: 80%;
+}
